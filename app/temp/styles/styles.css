@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  line-height: 0.4rem;
+}
+.test {
+  text-align: center;
+}
+.site-sidebar {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  box-shadow: 1px 0px 7px 0px #000000;
+  background-color: #101c42;
+  z-index: 2;
+}
+.site-sidebar__heading {
+    color: #c6c6c6;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+.site-sidebar__rune-selector-area {
+    position: relative;
+    width: 70%;
+    height: 23%;
+    margin: 0 auto;
+  }
+.site-sidebar__rune-selector-area--row {
+      width: 100%;
+      height: 20%;
+      margin: 0;
+    }
+.site-sidebar__rune-selector-area--row__rune-button {
+        position: relative;
+        margin: 0px 3px;
+        display: inline-block;
+        background-color: transparent;
+        width: 30%;
+        height: 80%;
+        border-style: solid;
+        border-color: #c6c6c6;
+        border-width: 0.5px;
+        font-size: .95rem;
+        font-weight: 300;
+        color: #c6c6c6;
+        text-align: center;
+        text-decoration: none;
+      }
+.site-sidebar__rune-selector-area--row__rune-button--last {
+          float: right;
+        }
+.idest-section {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 80%;
+  height: 100%;
+  background-color: #ececec;
+
+
+}
+.idest-section__idest-area {
+    position: relative;
+    height: 70%;
+    width: 70%;
+    top: 15%;
+    margin: auto;
+    background-color: #939393;
+    z-index: 1
+  }
+.main-area {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 1;
+}
