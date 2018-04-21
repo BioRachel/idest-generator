@@ -1,0 +1,14 @@
+
+User clicks on a button
+  - React.Component stores this as prop and keeps track of it
+  - This component needs to keep track of multiple props:
+
+	- Major runes currently selected (& number)
+	- Intermediate runes currently selected (& number)
+	- Minor runes currently selected (& number)
+
+ - This component also needs to have some functions
+
+	- Based on the number and types of runes selected, get another react component to render a rune format
+	- Pass that react component the right runes to render in the spaces as props.
+	- Check that no more than x major, y intermediate or z minor runes are selected and if so, do not store this as a prop and tell the user that a maximum number of runes is allowed. 

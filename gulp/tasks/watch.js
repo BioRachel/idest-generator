@@ -25,12 +25,12 @@ gulp.task('watch', function () {
 });
 
 
-gulp.task('scriptsRefresh', function() {
+gulp.task('scriptsRefresh', ['scripts'], function() {
   browserSync.reload();
 });
 
 
 gulp.task('cssInject', ['styles'], function() {
-  return gulp.src('./app/assets/styles/styles.css')
+  return gulp.src('./app/temp/styles/styles.css')
     .pipe(browserSync.stream());
 });
