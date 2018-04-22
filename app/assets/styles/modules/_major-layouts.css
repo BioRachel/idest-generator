@@ -1,0 +1,35 @@
+.major-rune {
+  position: absolute;
+  display: inline-block;
+  width: 28%;
+  height: 38%;
+  background-color: #444444;
+  border: 2px solid #FFF;
+
+  &__top-left {
+    top: $majorTwoRuneYSpacing;
+    left: $majorTwoRuneXSpacing;
+  }
+
+  &__top-right {
+    top: $majorTwoRuneYSpacing;
+    right: $majorTwoRuneXSpacing;
+  }
+
+  &__bottom-left {
+    bottom: $majorTwoRuneYSpacing;
+    left: $majorTwoRuneXSpacing;
+  }
+
+  &__bottom-right {
+    bottom: $majorTwoRuneYSpacing;
+    right: $majorTwoRuneXSpacing;
+  }
+
+  &__middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}

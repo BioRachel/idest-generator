@@ -1,18 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestApp from './modules/ButtonHandler.jsx';
+import App from './modules/App.jsx';
+import SiteHeader from './modules/SiteHeader.jsx';
 
-/*
-class TestApp extends React.Component {
-  render() {
-    return (
-      <h1>I am a react module</h1>
-    );
+class Sidebar extends React.Component {
+
+
+  handleClick() {
+    alert('Hello there from ');
   }
+
+  render() {
+    return <SiteHeader onClick={this.handleClick}/>;
+  }
+
 }
-*/
 
 ReactDOM.render(
-  <TestApp />,
-  document.getElementById('root')
+  <Sidebar />,
+  document.getElementById('sidebar')
+);
+
+ReactDOM.render(
+  <App majRunes="one"/>,
+  document.getElementById('app')
 );

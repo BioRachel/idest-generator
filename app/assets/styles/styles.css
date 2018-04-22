@@ -3,4 +3,6 @@
 @import "base/_global";
 @import "modules/_site-sidebar";
 @import "modules/_idest-section";
-@import "modules/_main-area";
+@import "modules/_page";
+@import "modules/_major-layouts";
+@import "modules/_inter-layouts";

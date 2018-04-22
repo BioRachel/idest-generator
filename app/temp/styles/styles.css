@@ -1,3 +1,8 @@
+
+/* COLORS */
+/* Spacing */
+/* Major Runes */
+/* Intermediate Runes */
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -29,41 +34,44 @@ h1 {
   background-color: #101c42;
   z-index: 2;
 }
-.site-sidebar__heading {
+.heading {
     color: #c6c6c6;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+}
+.rune-selector-area {
+  position: relative;
+  width: 70%;
+  height: 23%;
+  margin: 0 auto;
+}
+.button-row {
+  width: 100%;
+  height: 20%;
+  margin: 0;
+}
+.rune-button {
+  position: relative;
+  margin: 0px 3px;
+  display: inline-block;
+  background-color: transparent;
+  width: 30%;
+  height: 80%;
+  border: 0.5px solid #c6c6c6;
+  font-size: .95rem;
+  font-weight: 300;
+  color: #c6c6c6;
+  text-align: center;
+  text-decoration: none;
+}
+.rune-button--last {
+    float: right;
+    margin: 0px 12px;
   }
-.site-sidebar__rune-selector-area {
-    position: relative;
-    width: 70%;
-    height: 23%;
-    margin: 0 auto;
+.rune-button--selected {
+    background-color: #c6c6c6;
+    color: #101c42;
   }
-.site-sidebar__rune-selector-area--row {
-      width: 100%;
-      height: 20%;
-      margin: 0;
-    }
-.site-sidebar__rune-selector-area--row__rune-button {
-        position: relative;
-        margin: 0px 3px;
-        display: inline-block;
-        background-color: transparent;
-        width: 30%;
-        height: 80%;
-        border-style: solid;
-        border-color: #c6c6c6;
-        border-width: 0.5px;
-        font-size: .95rem;
-        font-weight: 300;
-        color: #c6c6c6;
-        text-align: center;
-        text-decoration: none;
-      }
-.site-sidebar__rune-selector-area--row__rune-button--last {
-          float: right;
-        }
 .idest-section {
   display: inline-block;
   position: absolute;
@@ -88,9 +96,92 @@ h1 {
     z-index: 10;
     text-align: center;
   }
-.main-area {
+.page {
+  display: block;
+  position: relative;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #FFF;
   z-index: 1;
 }
+.major-rune {
+  position: absolute;
+  display: inline-block;
+  width: 28%;
+  height: 38%;
+  background-color: #444444;
+  border: 2px solid #FFF;
+
+}
+.major-rune__top-left {
+    top: 12%;
+    left: 22%;
+  }
+.major-rune__top-right {
+    top: 12%;
+    right: 22%;
+  }
+.major-rune__bottom-left {
+    bottom: 12%;
+    left: 22%;
+  }
+.major-rune__bottom-right {
+    bottom: 12%;
+    right: 22%;
+  }
+.major-rune__middle {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+.inter-rune {
+  position: absolute;
+  display: block;
+  width: 18%;
+  height: 25%;
+  background-color: #FFF;
+  border: 2px solid #000000;
+
+
+}
+.inter-rune__top-left {
+    top: 25%;
+    left: 31.8%;
+  }
+.inter-rune__top-right {
+    top: 25%;
+    right: 31.8%;
+  }
+.inter-rune__bottom-left {
+    bottom: 25%;
+    left: 31.8%;
+  }
+.inter-rune__bottom-right {
+    bottom: 25%;
+    right: 31.8%;
+  }
+.inter-rune__top-middle {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -180%);
+            transform: translate(-50%, -180%);
+  }
+.inter-rune__middle-right {
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(180%, -50%);
+            transform: translate(180%, -50%);
+  }
+.inter-rune__bottom-middle {
+    bottom: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, 180%);
+            transform: translate(50%, 180%);
+  }
+.inter-rune__middle-left {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-180%, -50%);
+            transform: translate(-180%, -50%);
+  }

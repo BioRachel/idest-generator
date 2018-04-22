@@ -1,3 +1,16 @@
-$mainGrey: #01001b;
-$sidebarGrey: #ececec;
-$lightGrey: #373737;
+
+/* COLORS */
+$sideBarBackground: #101c42;
+$titleColor: #c6c6c6;
+$buttonBorderColor: #c6c6c6;
+$buttonTextColor: #c6c6c6;
+
+/* Spacing */
+
+/* Major Runes */
+$majorTwoRuneXSpacing: 22%;
+$majorTwoRuneYSpacing: 12%;
+
+/* Intermediate Runes */
+$interTwoRuneXSpacing: 31.8%;
+$interTwoRuneYSpacing: 25%;
