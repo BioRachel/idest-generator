@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './modules/App.jsx';
-import SiteHeader from './modules/SiteHeader.jsx';
+import { SiteHeader } from './modules/SiteHeader.jsx';
 
 class Sidebar extends React.Component {
-
-
-  handleClick() {
-    alert('Hello there from ');
-  }
-
   render() {
-    return <SiteHeader onClick={this.handleClick}/>;
+    return <SiteHeader />;
   }
 
 }
@@ -22,6 +16,6 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <App majRunes="one"/>,
+  <App majRunes="two"/>,
   document.getElementById('app')
 );

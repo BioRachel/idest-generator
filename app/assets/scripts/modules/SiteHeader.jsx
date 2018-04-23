@@ -1,6 +1,9 @@
 import React from 'react';
+import { Button, ButtonRight } from './Buttons.jsx';
 
-export default class SiteHeader extends React.Component {
+
+
+export class SiteHeader extends React.Component {
   render() {
     return (
     <header class="site-sidebar">
@@ -11,32 +14,32 @@ export default class SiteHeader extends React.Component {
 
       <div class="rune-selector-area">
         <div class="button-row">
-          <button class="rune-button" onClick={this.props.onClick}><p>Fire</p></button>
-          <button class="rune-button rune-button--selected"><p>Earth</p></button>
-          <button class="rune-button"><p>Water</p></button>
+          <Button name="Fire" />
+          <Button name="Earth" />
+          <ButtonRight name="Water" />
         </div>
 
         <div class="button-row">
-          <button class="rune-button"><p>Air</p></button>
-          <button class="rune-button"><p>Life</p></button>
-          <button class="rune-button"><p>Death</p></button>
+          <Button name="Air" />
+          <Button name="Life" />
+          <ButtonRight name="Death" />
         </div>
 
         <div class="button-row">
-          <button class="rune-button"><p>Chaos</p></button>
-          <button class="rune-button"><p>Order</p></button>
-          <button class="rune-button"><p>Knowledge</p></button>
+          <Button name="Chaos" />
+          <Button name="Order" />
+          <ButtonRight name="Knowledge" />
         </div>
 
         <div class="button-row">
-          <button class="rune-button"><p>Faith</p></button>
-          <button class="rune-button"><p>Nature</p></button>
-          <button class="rune-button"><p>Artifice</p></button>
+          <Button name="Faith" />
+          <Button name="Nature" />
+          <ButtonRight name="Artifice" />
         </div>
 
         <div class="button-row">
-          <button class="rune-button"><p>Self</p></button>
-          <button class="rune-button rune-button--last"><p>Other</p></button>
+          <Button name="Self" />
+          <ButtonRight name="Other" />
         </div>
       </div>
 
