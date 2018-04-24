@@ -28,7 +28,7 @@ export class SiteHeader extends React.Component {
         <div class="button-row">
           <Button name="Chaos" />
           <Button name="Order" />
-          <ButtonRight name="Knowledge" />
+          <ButtonRight name="Knowledge" style="padding-right:3px;" />
         </div>
 
         <div class="button-row">
