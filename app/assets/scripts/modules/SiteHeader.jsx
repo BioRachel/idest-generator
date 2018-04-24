@@ -4,6 +4,28 @@ import { Button, ButtonRight } from './Buttons.jsx';
 
 
 export class SiteHeader extends React.Component {
+  constructor(props) {
+    super(props);
+    this.addClick = this.addClick.bind(this);
+    this.dropClick = this.dropClick.bind(this);
+    this.state = { rune: "none", runesSelected: 0 };
+  }
+
+  addClick(name) {
+    let runeCounter = this.state.runesSelected;
+    this.state.runesSelected = runeCounter + 1;
+    this.state.rune = name;
+    alert(`${this.state.rune}, ${this.state.runesSelected}`);
+  }
+
+  dropClick(name) {
+    let runeCounter = this.state.runesSelected;
+    this.state.runesSelected = runeCounter - 1;
+    this.state.rune = name;
+    alert(`${this.state.rune}, ${this.state.runesSelected}`);
+  }
+
+
   render() {
     return (
     <header class="site-sidebar">
@@ -14,32 +36,32 @@ export class SiteHeader extends React.Component {
 
       <div class="rune-selector-area">
         <div class="button-row">
-          <Button name="Fire" />
-          <Button name="Earth" />
-          <ButtonRight name="Water" />
+          <Button name="Fire" addClick={this.addClick} dropClick={this.dropClick}/>
+          <Button name="Earth" addClick={this.addClick} dropClick={this.dropClick}/>
+          <ButtonRight name="Water" addClick={this.addClick} dropClick={this.dropClick}/>
         </div>
 
         <div class="button-row">
-          <Button name="Air" />
-          <Button name="Life" />
-          <ButtonRight name="Death" />
+          <Button name="Air" addClick={this.addClick} dropClick={this.dropClick}/>
+          <Button name="Life" addClick={this.addClick} dropClick={this.dropClick}/>
+          <ButtonRight name="Death" addClick={this.addClick} dropClick={this.dropClick}/>
         </div>
 
         <div class="button-row">
-          <Button name="Chaos" />
-          <Button name="Order" />
-          <ButtonRight name="Knowledge" style="padding-right:3px;" />
+          <Button name="Chaos" addClick={this.addClick} dropClick={this.dropClick}/>
+          <Button name="Order" addClick={this.addClick} dropClick={this.dropClick}/>
+          <ButtonRight name="Knowledge" addClick={this.addClick} dropClick={this.dropClick}/>
         </div>
 
         <div class="button-row">
-          <Button name="Faith" />
-          <Button name="Nature" />
-          <ButtonRight name="Artifice" />
+          <Button name="Faith" addClick={this.addClick} dropClick={this.dropClick}/>
+          <Button name="Nature" addClick={this.addClick} dropClick={this.dropClick}/>
+          <ButtonRight name="Artifice" addClick={this.addClick} dropClick={this.dropClick}/>
         </div>
 
         <div class="button-row">
-          <Button name="Self" />
-          <ButtonRight name="Other" />
+          <Button name="Self" addClick={this.addClick} dropClick={this.dropClick}/>
+          <ButtonRight name="Other" addClick={this.addClick} dropClick={this.dropClick}/>
         </div>
       </div>
 
