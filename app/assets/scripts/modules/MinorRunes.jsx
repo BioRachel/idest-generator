@@ -36,34 +36,33 @@ export class MinorRunes extends React.Component {
     return (
       <div>
         <div class="button-row">
-          <MinorRuneContainer name="Fire" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Air" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Solid" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Liquid" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Gas" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
         </div>
 
 
         <div class="button-row">
-          <MinorRuneContainer name="Earth" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Life" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Death" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Sharp" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Smooth" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Small" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
         </div>
 
 
         <div class="button-row">
-          <MinorRuneContainer name="Mind" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Body" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Knowledge" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Large" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Area" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Target" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
         </div>
 
         <div class="button-row">
-          <MinorRuneContainer name="Faith" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Chaos" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Order" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Fast" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Slow" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Multiple" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
         </div>
 
         <div class="button-row">
-          <MinorRuneContainer name="Nature" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
-          <MinorRuneContainer name="Artifice" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
+          <MinorRuneContainer name="Shape" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMinorRunes={this.state.activeMinorRunes} minorRunesSelected={this.state.minorRunesSelected}/>
         </div>
       </div>
     );

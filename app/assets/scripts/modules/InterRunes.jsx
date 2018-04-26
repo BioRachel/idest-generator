@@ -36,35 +36,31 @@ export class InterRunes extends React.Component {
     return (
       <div>
         <div class="button-row">
-          <InterRuneContainer name="Fire" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Air" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Self" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Other" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Storage" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
         </div>
 
 
         <div class="button-row">
-          <InterRuneContainer name="Earth" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Life" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Death" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Instant" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Duration" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Channel" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
         </div>
 
 
         <div class="button-row">
-          <InterRuneContainer name="Mind" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Body" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Knowledge" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Create" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Destroy" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Control" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
         </div>
 
         <div class="button-row">
-          <InterRuneContainer name="Faith" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Chaos" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Order" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Shape" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Transform" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+          <InterRuneContainer name="Snare" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
         </div>
 
-        <div class="button-row">
-          <InterRuneContainer name="Nature" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-          <InterRuneContainer name="Artifice" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-        </div>
       </div>
     );
   }
