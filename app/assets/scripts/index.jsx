@@ -1,21 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './modules/App.jsx';
-import { SiteHeader } from './modules/SiteHeader.jsx';
-
-class Sidebar extends React.Component {
-  render() {
-    return <SiteHeader />;
-  }
-
-}
+import { MajorRunes } from './modules/MajorRunes.jsx';
+import { InterRunes } from './modules/InterRunes.jsx';
+import { MinorRunes } from './modules/MinorRunes.jsx';
 
 ReactDOM.render(
-  <Sidebar />,
-  document.getElementById('sidebar')
+	<MajorRunes />,
+	document.getElementById('major-runes')
 );
 
 ReactDOM.render(
-  <App majRunes="two"/>,
-  document.getElementById('app')
+	<InterRunes />,
+	document.getElementById('intermediate-runes')
+);
+
+ReactDOM.render(
+	<MinorRunes />,
+	document.getElementById('minor-runes')
 );

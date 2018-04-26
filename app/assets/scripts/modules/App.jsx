@@ -15,3 +15,8 @@ export default class App extends React.Component {
     }
   }
 }
+
+ReactDOM.render(
+  <App majRunes="two"/>,
+  document.getElementById('app')
+);
