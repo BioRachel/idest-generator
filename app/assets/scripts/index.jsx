@@ -13,63 +13,34 @@ class Page extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { page: "Calendar" }
+		this.changePage = this.changePage.bind(this);
+	}
+
+	changePage(name) {
+		this.state.page = name;
+		this.forceUpdate();
 	}
 
 	render() {
-		if (this.state.page === "Runes") {
+		if (this.state.page === "Idests") {
 			return (
-	      <Runes />
+				<div>
+					<Runes />
+					<Navbar changePage={this.changePage} style={this.state.page}/>
+				</div>
 	    );
 		} else if (this.state.page === "Calendar") {
 			return (
-				<CalendarPage />
+				<div>
+					<Navbar changePage={this.changePage} style={this.state.page}/>
+	      	<CalendarPage />
+				</div>
 			);
 		}
   }
 }
 
 ReactDOM.render(
-	<Navbar />,
-	document.getElementById('site-navbar')
-);
-
-ReactDOM.render(
 	<Page />,
 	document.getElementById('browser-window')
 );
-
-
-
-
-/*
-const currentPage = "Idests";
-
-if (currentPage === "Idests") {
-	ReactDOM.render(
-		<MajorRunes />,
-		document.getElementById('sidebar-top')
-	);
-
-	ReactDOM.render(
-		<InterRunes />,
-		document.getElementById('sidebar-middle')
-	);
-
-	ReactDOM.render(
-		<MinorRunes />,
-		document.getElementById('sidebar-bottom')
-	);
-
-	ReactDOM.render(
-		<RuneApp />,
-		document.getElementById('idest-area')
-	);
-}
-
-else if (currentPage === "Calendar") {
-	ReactDOM.render(
-		<CalendarApp />,
-		document.getElementById('idest-area')
-	);
-}
-*/

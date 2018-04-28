@@ -17,13 +17,13 @@
   top: 50%;
   left: 37%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 10;
 }
 
 .navbar-button {
   position: relative;
   display: inline-block;
-  background-color: #f3f3f3;
+  background-color: transparent;
   border: 0.5px solid $buttonBorderColor;
   border-radius: 3px;
   margin-right: 15px;
@@ -31,7 +31,12 @@
   height: 100%;
   font-size: 1rem;
   font-weight: 300;
-  color: $navbarBackground;
+  color: $buttonBorderColor;
   text-align: center;
   text-decoration: none;
+
+  &--selected {
+    color: $navbarBackground;
+    background-color: #f3f3f3;
+  }
 }
