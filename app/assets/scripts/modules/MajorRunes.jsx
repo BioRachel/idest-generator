@@ -1,6 +1,6 @@
 import React from 'react';
 import { MajorRuneContainer } from './MajorRuneContainer.jsx';
-import Button from './Buttons.jsx';
+import { Button } from './Buttons.jsx';
 
 export class MajorRunes extends React.Component {
   constructor(props) {
@@ -35,37 +35,42 @@ export class MajorRunes extends React.Component {
   render() {
     return (
       <div>
-        <div class="button-row">
-          <MajorRuneContainer name="Fire" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Air" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-        </div>
-
-
-        <div class="button-row">
-          <MajorRuneContainer name="Earth" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Life" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Death" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-        </div>
-
-
-        <div class="button-row">
-          <MajorRuneContainer name="Mind" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Body" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Knowledge" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-        </div>
-
-        <div class="button-row">
-          <MajorRuneContainer name="Faith" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Chaos" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Order" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-        </div>
-
-        <div class="button-row">
-          <MajorRuneContainer name="Nature" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-          <MajorRuneContainer name="Artifice" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-        </div>
+      <div class="heading">
+        <h1>Major Runes</h1>
       </div>
+        <div class="rune-selector-area">
+          <div class="button-row">
+            <MajorRuneContainer name="Fire" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Air" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+          </div>
+
+
+          <div class="button-row">
+            <MajorRuneContainer name="Earth" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Life" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Death" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+          </div>
+
+
+          <div class="button-row">
+            <MajorRuneContainer name="Mind" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Body" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Knowledge" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+          </div>
+
+          <div class="button-row">
+            <MajorRuneContainer name="Faith" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Chaos" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Order" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+          </div>
+
+          <div class="button-row">
+            <MajorRuneContainer name="Nature" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Artifice" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+          </div>
+        </div>
+        </div>
     );
   }
 }

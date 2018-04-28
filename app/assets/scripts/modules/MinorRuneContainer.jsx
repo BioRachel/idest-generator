@@ -1,18 +1,18 @@
 import React from 'react';
-import Button from './Buttons.jsx';
+import { Button } from './Buttons.jsx';
 
 export class MinorRuneContainer extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { style: "rune-button" };
+    this.state = { style: "button" };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler() {
-    if (this.state.style === "rune-button") {
+    if (this.state.style === "button") {
 
       if (this.props.minorRunesSelected < 4) {
-        this.setState({ style: "rune-button rune-button--selected" });
+        this.setState({ style: "button button--selected" });
         this.props.addClicks(this.props.name);
       } else {
         alert(`Maximum 4 minor runes can be selected`);
@@ -20,7 +20,7 @@ export class MinorRuneContainer extends React.Component {
     }
 
     else {
-        this.setState({ style: "rune-button" });
+        this.setState({ style: "button" });
         this.props.dropClicks(this.props.name);
       }
     }

@@ -6,3 +6,7 @@
 @import "modules/_page";
 @import "modules/_major-layouts";
 @import "modules/_inter-layouts";
+@import "modules/_site-navbar";
+@import "modules/_images";
+@import "modules/_calendar";
+@import "modules/_title";

@@ -1,8 +1,23 @@
 .page {
-  display: block;
-  position: relative;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
-  z-index: 1;
+  z-index: 998;
+}
+
+.top-layer {
+  z-index: 999;
+  display: inline-block;
+  position: absolute;
+  background-color: #000;
+  border: 2px solid rgba(255, 0, 0, 1);
+}
+
+.test {
+  z-index: 999;
+  background-color: #000;
+  position: absolute;
 }

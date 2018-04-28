@@ -1,0 +1,16 @@
+.title {
+  display: inline-block;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: #f3f3f3;
+  width: 40%;
+  height: 70%;
+  right: 11%;
+
+  p {
+    float: right;
+  }
+}

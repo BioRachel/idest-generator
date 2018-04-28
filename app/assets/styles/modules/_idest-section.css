@@ -1,25 +1,21 @@
-.idest-section {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 28%;
-  width: 72%;
-  height: 100%;
-  background-color: #FFF;
-  border: 2px solid rgba(255, 0, 0, 1);
-  text-align: center;
-  z-index: 1;
-
-  &__idest-area {
-    position: relative;
+.idest-area {
+    position: absolute;
     height: 600px;
     width: 900px;
-    top: 15%;
+    top: 0;
+    left: 0;
     background-color: #c6c6c6;
+    border: 2px solid rgba(255, 0, 0, 1);
     color: #FFF;
     z-index: 10;
     text-align: center;
   }
 
-
+.idest-spot {
+  height: 600px;
+  width: 900px;
+  position: absolute;
+  top: 220px;
+  left: 30%;
+  border: 2px solid rgba(255, 0, 0, 1);
 }
