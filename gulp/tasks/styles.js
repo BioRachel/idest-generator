@@ -9,7 +9,7 @@ hexrgba = require('postcss-hexrgba');
 
 gulp.task('styles', function() {
   return gulp.src('./app/assets/styles/styles.css')
-    .pipe(postCSS([cssImport, autoprefixer, cssvars, nested, mixins, hexrgba]))
+    .pipe(postCSS([cssImport, mixins, autoprefixer, cssvars, nested, hexrgba]))
     .on('error', function(errorInfo) {
       console.log(errorInfo.toString());
       this.emit('end');

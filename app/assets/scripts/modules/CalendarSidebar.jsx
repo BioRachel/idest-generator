@@ -16,12 +16,13 @@ export class CalendarSidebar extends React.Component {
     this.props.addDisplay(name);
   }
 
+
   render() {
     return (
       <div class="sidebar-ghost">
         <div class="calendar-sidebar">
           <div class="heading heading--calendar">
-            <h1>Show me...</h1>
+            <p>Show me...</p>
           </div>
           <CalendarButtonContainer name="Weeks" sendUpRemove={this.sendUpRemove} sendUpAdd={this.sendUpAdd}/>
           <CalendarButtonContainer name="Months" sendUpRemove={this.sendUpRemove} sendUpAdd={this.sendUpAdd}/>
