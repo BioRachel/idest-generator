@@ -17,9 +17,9 @@ export class MajorRunes extends React.Component {
     let currentClicks = this.state.majorRunesSelected;
     this.state.majorRunesSelected = currentClicks + 1;
     this.state.activeMajorRunes.push(name);
+    this.props.update(name);
     this.forceUpdate();
   }
-
 
   dropClicks(name) {
     let theClicks = this.state.majorRunesSelected;

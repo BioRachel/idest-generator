@@ -143,26 +143,138 @@ h1 {
     border: 0.5px solid #fff;
     color: #484860;
   }
-.idest-area {
-    position: absolute;
-    height: 600px;
-    width: 900px;
-    top: 0;
-    left: 0;
-    background-color: #c6c6c6;
-    border: 2px solid rgba(255, 0, 0, 1);
-    color: #FFF;
-    z-index: 10;
-    text-align: center;
-  }
 .idest-spot {
-  height: 600px;
-  width: 900px;
+  height: 60%;
+  width: 60%;
   position: absolute;
   top: 220px;
   left: 30%;
   border: 2px solid rgba(255, 0, 0, 1);
 }
+.default-major {
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid #000;
+
+}
+.default-major__first-two {
+    -webkit-transform: translate(-140%, -50%);
+            transform: translate(-140%, -50%);
+  }
+.default-major__second-two {
+    -webkit-transform: translate(40%, -50%);
+            transform: translate(40%, -50%);
+  }
+.default-other-one {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(0, 0, 255, 1);
+
+}
+.default-other-one__spot-one {
+    -webkit-transform: translate(-50%, -190%);
+            transform: translate(-50%, -190%);
+  }
+.default-other-one__spot-two {
+    -webkit-transform: translate(-50%, 90%);
+            transform: translate(-50%, 90%);
+  }
+.default-other-one__spot-three {
+    -webkit-transform: translate(90%, -50%);
+            transform: translate(90%, -50%);
+  }
+.default-other-one__spot-four {
+    -webkit-transform: translate(-190%, -50%);
+            transform: translate(-190%, -50%);
+  }
+.default-other-one__spot-five {
+    -webkit-transform: translate(90%, 90%);
+            transform: translate(90%, 90%);
+  }
+.default-other-one__spot-six {
+    -webkit-transform: translate(-190%, 90%);
+            transform: translate(-190%, 90%);
+  }
+.default-other-one__spot-seven {
+    -webkit-transform: translate(30%, 90%);
+            transform: translate(30%, 90%);
+  }
+.default-other-one__spot-eight {
+    -webkit-transform: translate(-130%, 90%);
+            transform: translate(-130%, 90%);
+  }
+.default-other-one__spot-nine {
+    -webkit-transform: translate(90%, -110%);
+            transform: translate(90%, -110%);
+  }
+.default-other-one__spot-ten {
+    -webkit-transform: translate(90%, 10%);
+            transform: translate(90%, 10%);
+  }
+.default-other-one__spot-eleven {
+    -webkit-transform: translate(-190%, -110%);
+            transform: translate(-190%, -110%);
+  }
+.default-other-one__spot-twelve {
+    -webkit-transform: translate(-190%, 10%);
+            transform: translate(-190%, 10%);
+  }
+.default-other-two {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(0, 0, 255, 1);
+
+}
+.default-other-two__spot-one {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+.default-other-two__spot-two {
+    -webkit-transform: translate(-50%, 10%);
+            transform: translate(-50%, 10%);
+  }
+.default-other-two__spot-three {
+    -webkit-transform: translate(-50%, -110%);
+            transform: translate(-50%, -110%);
+  }
+.default-other-two__spot-four {
+    -webkit-transform: translate(-50%, -160%);
+            transform: translate(-50%, -160%);
+  }
+.default-other-two__spot-five {
+    -webkit-transform: translate(-50%, 60%);
+            transform: translate(-50%, 60%);
+  }
+.default-other-two__spot-six {
+    -webkit-transform: translate(-190%, 90%);
+            transform: translate(-190%, 90%);
+  }
+.default-other-two__spot-seven {
+    -webkit-transform: translate(30%, 90%);
+            transform: translate(30%, 90%);
+  }
+.default-other-two__spot-eight {
+    -webkit-transform: translate(-130%, 90%);
+            transform: translate(-130%, 90%);
+  }
+.default-other-two__spot-nine {
+    -webkit-transform: translate(90%, -110%);
+            transform: translate(90%, -110%);
+  }
 .page {
   display: inline-block;
   position: fixed;

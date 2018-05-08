@@ -1,21 +1,134 @@
-.idest-area {
-    position: absolute;
-    height: 600px;
-    width: 900px;
-    top: 0;
-    left: 0;
-    background-color: #c6c6c6;
-    border: 2px solid rgba(255, 0, 0, 1);
-    color: #FFF;
-    z-index: 10;
-    text-align: center;
-  }
-
 .idest-spot {
-  height: 600px;
-  width: 900px;
+  height: 60%;
+  width: 60%;
   position: absolute;
   top: 220px;
   left: 30%;
   border: 2px solid rgba(255, 0, 0, 1);
+}
+
+.default-major {
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+
+  &__first-two {
+    transform: translate(-140%, -50%);
+  }
+
+  &__second-two {
+    transform: translate(40%, -50%);
+  }
+
+}
+
+.default-other-one {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(0, 0, 255, 1);
+
+  &__spot-one {
+    transform: translate(-50%, -190%);
+  }
+
+  &__spot-two {
+    transform: translate(-50%, 90%);
+  }
+
+  &__spot-three {
+    transform: translate(90%, -50%);
+  }
+
+  &__spot-four {
+    transform: translate(-190%, -50%);
+  }
+
+  &__spot-five {
+    transform: translate(90%, 90%);
+  }
+
+  &__spot-six {
+    transform: translate(-190%, 90%);
+  }
+
+  &__spot-seven {
+    transform: translate(30%, 90%);
+  }
+
+  &__spot-eight {
+    transform: translate(-130%, 90%);
+  }
+
+  &__spot-nine {
+    transform: translate(90%, -110%);
+  }
+
+  &__spot-ten {
+    transform: translate(90%, 10%);
+  }
+
+  &__spot-eleven {
+    transform: translate(-190%, -110%);
+  }
+
+  &__spot-twelve {
+    transform: translate(-190%, 10%);
+  }
+
+}
+
+.default-other-two {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(0, 0, 255, 1);
+
+  &__spot-one {
+    transform: translate(-50%, -50%);
+  }
+
+  &__spot-two {
+    transform: translate(-50%, 10%);
+  }
+
+  &__spot-three {
+    transform: translate(-50%, -110%);
+  }
+
+  &__spot-four {
+    transform: translate(-50%, -160%);
+  }
+
+  &__spot-five {
+    transform: translate(-50%, 60%);
+  }
+
+  &__spot-six {
+    transform: translate(-190%, 90%);
+  }
+
+  &__spot-seven {
+    transform: translate(30%, 90%);
+  }
+
+  &__spot-eight {
+    transform: translate(-130%, 90%);
+  }
+
+  &__spot-nine {
+    transform: translate(90%, -110%);
+  }
+
 }

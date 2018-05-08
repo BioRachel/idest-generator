@@ -17,6 +17,7 @@ export class MinorRunes extends React.Component {
     let currentClicks = this.state.minorRunesSelected;
     this.state.minorRunesSelected = currentClicks + 1;
     this.state.activeMinorRunes.push(name);
+    this.props.update(name);
     this.forceUpdate();
   }
 

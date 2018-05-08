@@ -17,9 +17,10 @@ export class InterRunes extends React.Component {
     let currentClicks = this.state.interRunesSelected;
     this.state.interRunesSelected = currentClicks + 1;
     this.state.activeInterRunes.push(name);
+    this.props.update(name);
     this.forceUpdate();
   }
-  
+
 
   dropClicks(name) {
     let theClicks = this.state.interRunesSelected;

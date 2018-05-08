@@ -12,7 +12,7 @@ import { Runes } from './modules/Runes.jsx';
 class Page extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { page: "Calendar" }
+		this.state = { page: "Idests" }
 		this.changePage = this.changePage.bind(this);
 	}
 
