@@ -26,7 +26,6 @@ export class Runes extends React.Component {
       this.state.MajorRunes.push(runes);
       this.forceUpdate();
     }
-    alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
   updateInterRunesSelected(runes) {
@@ -38,7 +37,6 @@ export class Runes extends React.Component {
       this.state.InterRunes.push(runes);
       this.forceUpdate();
     }
-    alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
   updateMinRunesSelected(runes) {
@@ -50,7 +48,6 @@ export class Runes extends React.Component {
       this.state.MinorRunes.push(runes);
       this.forceUpdate();
     }
-    alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
   render() {

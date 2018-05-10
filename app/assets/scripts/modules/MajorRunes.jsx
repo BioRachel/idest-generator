@@ -40,7 +40,7 @@ export class MajorRunes extends React.Component {
 
             <MajorRuneContainer name="Fire" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
             <MajorRuneContainer name="Air" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
-            <MajorRuneContainer name="water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
+            <MajorRuneContainer name="Water" addClicks={this.addClicks} dropClicks={this.dropClicks} activeMajorRunes={this.state.activeMajorRunes} majorRunesSelected={this.state.majorRunesSelected}/>
 
 
 
