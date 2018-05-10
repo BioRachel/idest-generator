@@ -27,6 +27,7 @@ export class MinorRunes extends React.Component {
     let position = this.state.activeMinorRunes.indexOf(name);
     this.state.minorRunesSelected = theClicks - 1;
     this.state.activeMinorRunes.splice(position, 1);
+    this.props.update(name);
     this.forceUpdate();
   }
 

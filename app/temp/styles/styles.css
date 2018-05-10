@@ -260,20 +260,28 @@ h1 {
             transform: translate(-50%, 60%);
   }
 .default-other-two__spot-six {
-    -webkit-transform: translate(-190%, 90%);
-            transform: translate(-190%, 90%);
+    -webkit-transform: translate(85%, -190%);
+            transform: translate(85%, -190%);
   }
 .default-other-two__spot-seven {
-    -webkit-transform: translate(30%, 90%);
-            transform: translate(30%, 90%);
+    -webkit-transform: translate(85%, 90%);
+            transform: translate(85%, 90%);
   }
 .default-other-two__spot-eight {
-    -webkit-transform: translate(-130%, 90%);
-            transform: translate(-130%, 90%);
+    -webkit-transform: translate(-185%, -190%);
+            transform: translate(-185%, -190%);
   }
 .default-other-two__spot-nine {
-    -webkit-transform: translate(90%, -110%);
-            transform: translate(90%, -110%);
+    -webkit-transform: translate(-185%, 90%);
+            transform: translate(-185%, 90%);
+  }
+.default-other-two__spot-ten {
+    -webkit-transform: translate(230%, -50%);
+            transform: translate(230%, -50%);
+  }
+.default-other-two__spot-eleven {
+    -webkit-transform: translate(-330%, -50%);
+            transform: translate(-330%, -50%);
   }
 .page {
   display: inline-block;

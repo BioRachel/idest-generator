@@ -116,19 +116,27 @@
   }
 
   &__spot-six {
-    transform: translate(-190%, 90%);
+    transform: translate(85%, -190%);
   }
 
   &__spot-seven {
-    transform: translate(30%, 90%);
+    transform: translate(85%, 90%);
   }
 
   &__spot-eight {
-    transform: translate(-130%, 90%);
+    transform: translate(-185%, -190%);
   }
 
   &__spot-nine {
-    transform: translate(90%, -110%);
+    transform: translate(-185%, 90%);
+  }
+
+  &__spot-ten {
+    transform: translate(230%, -50%);
+  }
+
+  &__spot-eleven {
+    transform: translate(-330%, -50%);
   }
 
 }

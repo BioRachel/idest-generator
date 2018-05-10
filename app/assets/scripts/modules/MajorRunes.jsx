@@ -26,6 +26,7 @@ export class MajorRunes extends React.Component {
     let position = this.state.activeMajorRunes.indexOf(name);
     this.state.majorRunesSelected = theClicks - 1;
     this.state.activeMajorRunes.splice(position, 1);
+    this.props.update(name);
     this.forceUpdate();
   }
 

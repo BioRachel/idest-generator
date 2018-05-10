@@ -2,6 +2,7 @@ import React from 'react';
 import { MajorRunes } from './MajorRunes.jsx';
 import { InterRunes } from './InterRunes.jsx';
 import { MinorRunes } from './MinorRunes.jsx';
+import { IdestBuilder } from './IdestBuilder.jsx';
 
 export class Runes extends React.Component {
   constructor(props) {
@@ -17,20 +18,38 @@ export class Runes extends React.Component {
   }
 
   updateMajRunesSelected(runes) {
-    this.state.MajorRunes.push(runes);
-    this.forceUpdate();
+    if (this.state.MajorRunes.includes(runes)) {
+      let position = this.state.MajorRunes.indexOf(runes);
+      this.state.MajorRunes.splice(position, 1);
+      this.forceUpdate();
+    } else {
+      this.state.MajorRunes.push(runes);
+      this.forceUpdate();
+    }
     alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
   updateInterRunesSelected(runes) {
-    this.state.InterRunes.push(runes);
-    this.forceUpdate();
+    if (this.state.InterRunes.includes(runes)) {
+      let position = this.state.InterRunes.indexOf(runes);
+      this.state.InterRunes.splice(position, 1);
+      this.forceUpdate();
+    } else {
+      this.state.InterRunes.push(runes);
+      this.forceUpdate();
+    }
     alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
   updateMinRunesSelected(runes) {
-    this.state.MinorRunes.push(runes);
-    this.forceUpdate();
+    if (this.state.MinorRunes.includes(runes)) {
+      let position = this.state.MinorRunes.indexOf(runes);
+      this.state.MinorRunes.splice(position, 1);
+      this.forceUpdate();
+    } else {
+      this.state.MinorRunes.push(runes);
+      this.forceUpdate();
+    }
     alert(`Major: ${this.state.MajorRunes}, Inter: ${this.state.InterRunes}, Minor: ${this.state.MinorRunes}`);
   }
 
@@ -51,17 +70,7 @@ export class Runes extends React.Component {
           </div>
         </div>
         <div class="idest-spot">
-          <div class="default-major default-major__first-two">
-          </div>
-          <div class="default-major default-major__second-two">
-          </div>
-          <div class="default-other-two default-other-two__spot-one"><p>1</p>
-          </div>
-          <div class="default-other-two default-other-two__spot-four"><p>2</p>
-          </div>
-          <div class="default-other-two default-other-two__spot-five"><p>3</p>
-          </div>
-
+          <IdestBuilder selectedMajorRunes={this.state.MajorRunes} selectedInterRunes={this.state.InterRunes} selectedMinorRunes={this.state.MinorRunes}/>
         </div>
       </div>
     );

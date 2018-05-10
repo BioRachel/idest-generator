@@ -27,6 +27,7 @@ export class InterRunes extends React.Component {
     let position = this.state.activeInterRunes.indexOf(name);
     this.state.interRunesSelected = theClicks - 1;
     this.state.activeInterRunes.splice(position, 1);
+    this.props.update(name);
     this.forceUpdate();
   }
 
