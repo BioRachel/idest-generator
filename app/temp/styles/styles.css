@@ -147,9 +147,11 @@ h1 {
   height: 60%;
   width: 60%;
   position: absolute;
-  top: 220px;
+  top: 27%;
   left: 30%;
-  border: 2px solid rgba(255, 0, 0, 1);
+  background-color: #FFF;
+  box-shadow: 0px 0px 7px 2px #cbcbcb;
+
 }
 .default-major {
   height: 180px;
@@ -160,7 +162,8 @@ h1 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid #000;
+  background-image: url('../../assets/images/Border - Ma.jpg');
+  background-size: contain;
 
 }
 .default-major__first-two {
@@ -179,72 +182,82 @@ h1 {
     -webkit-transform: translate(-110%, -50%);
             transform: translate(-110%, -50%);
   }
+.default-major__fifth-two {
+    -webkit-transform: translate(20%, -50%);
+            transform: translate(20%, -50%);
+  }
+.default-major__sixth-two {
+    -webkit-transform: translate(-120%, -50%);
+            transform: translate(-120%, -50%);
+  }
 .default-other-one {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   position: absolute;
   display: inline-block;
   top: 50%;
   left: 50%;
-  border: 2px solid rgba(0, 0, 255, 1);
+  background-image: url('../../assets/images/Border I-Mi.jpg');
+  background-size: contain;
 
 }
 .default-other-one__spot-one {
-    -webkit-transform: translate(-50%, -190%);
-            transform: translate(-50%, -190%);
+    -webkit-transform: translate(-50%, -230%);
+            transform: translate(-50%, -230%);
   }
 .default-other-one__spot-two {
-    -webkit-transform: translate(-50%, 90%);
-            transform: translate(-50%, 90%);
+    -webkit-transform: translate(-50%, 130%);
+            transform: translate(-50%, 130%);
   }
 .default-other-one__spot-three {
-    -webkit-transform: translate(90%, -50%);
-            transform: translate(90%, -50%);
+    -webkit-transform: translate(130%, -50%);
+            transform: translate(130%, -50%);
   }
 .default-other-one__spot-four {
-    -webkit-transform: translate(-190%, -50%);
-            transform: translate(-190%, -50%);
+    -webkit-transform: translate(-230%, -50%);
+            transform: translate(-230%, -50%);
   }
 .default-other-one__spot-five {
-    -webkit-transform: translate(85%, 85%);
-            transform: translate(85%, 85%);
+    -webkit-transform: translate(120%, 40%);
+            transform: translate(120%, 40%);
   }
 .default-other-one__spot-six {
-    -webkit-transform: translate(-185%, 85%);
-            transform: translate(-185%, 85%);
+    -webkit-transform: translate(-220%, 40%);
+            transform: translate(-220%, 40%);
   }
 .default-other-one__spot-seven {
-    -webkit-transform: translate(30%, 90%);
-            transform: translate(30%, 90%);
+    -webkit-transform: translate(45%, 113%);
+            transform: translate(45%, 113%);
   }
 .default-other-one__spot-eight {
-    -webkit-transform: translate(-130%, 90%);
-            transform: translate(-130%, 90%);
+    -webkit-transform: translate(-145%, 113%);
+            transform: translate(-145%, 113%);
   }
 .default-other-one__spot-nine {
-    -webkit-transform: translate(90%, -110%);
-            transform: translate(90%, -110%);
+    -webkit-transform: translate(130%, -132%);
+            transform: translate(130%, -132%);
   }
 .default-other-one__spot-ten {
-    -webkit-transform: translate(90%, 10%);
-            transform: translate(90%, 10%);
+    -webkit-transform: translate(130%, 32%);
+            transform: translate(130%, 32%);
   }
 .default-other-one__spot-eleven {
-    -webkit-transform: translate(-190%, -110%);
-            transform: translate(-190%, -110%);
+    -webkit-transform: translate(-230%, -132%);
+            transform: translate(-230%, -132%);
   }
 .default-other-one__spot-twelve {
-    -webkit-transform: translate(-190%, 10%);
-            transform: translate(-190%, 10%);
+    -webkit-transform: translate(-230%, 32%);
+            transform: translate(-230%, 32%);
   }
 .default-other-two {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   position: absolute;
   display: inline-block;
   top: 50%;
   left: 50%;
-  border: 2px solid rgba(0, 0, 255, 1);
+  background-image: url('../../assets/images/Border I-Mi.jpg');
+  background-size: contain;
 
 }
 .default-other-two__spot-one {
@@ -268,53 +281,96 @@ h1 {
             transform: translate(-50%, 60%);
   }
 .default-other-two__spot-six {
-    -webkit-transform: translate(85%, -190%);
-            transform: translate(85%, -190%);
+    -webkit-transform: translate(130%, -233%);
+            transform: translate(130%, -233%);
   }
 .default-other-two__spot-six-2 {
-    -webkit-transform: translate(40%, -190%);
-            transform: translate(40%, -190%);
+    -webkit-transform: translate(70%, -233%);
+            transform: translate(70%, -233%);
   }
 .default-other-two__spot-seven {
-    -webkit-transform: translate(85%, 90%);
-            transform: translate(85%, 90%);
+    -webkit-transform: translate(130%, 133%);
+            transform: translate(130%, 133%);
   }
 .default-other-two__spot-seven-2 {
-    -webkit-transform: translate(40%, 90%);
-            transform: translate(40%, 90%);
+    -webkit-transform: translate(70%, 133%);
+            transform: translate(70%, 133%);
   }
 .default-other-two__spot-eight {
-    -webkit-transform: translate(-185%, -190%);
-            transform: translate(-185%, -190%);
+    -webkit-transform: translate(-230%, -233%);
+            transform: translate(-230%, -233%);
   }
 .default-other-two__spot-eight-2 {
-    -webkit-transform: translate(-140%, -190%);
-            transform: translate(-140%, -190%);
+    -webkit-transform: translate(-170%, -233%);
+            transform: translate(-170%, -233%);
   }
 .default-other-two__spot-nine {
-    -webkit-transform: translate(-185%, 90%);
-            transform: translate(-185%, 90%);
+    -webkit-transform: translate(-230%, 133%);
+            transform: translate(-230%, 133%);
   }
 .default-other-two__spot-nine-2 {
-    -webkit-transform: translate(-140%, 90%);
-            transform: translate(-140%, 90%);
+    -webkit-transform: translate(-170%, 133%);
+            transform: translate(-170%, 133%);
   }
 .default-other-two__spot-ten {
     -webkit-transform: translate(230%, -50%);
             transform: translate(230%, -50%);
   }
 .default-other-two__spot-ten-2 {
-    -webkit-transform: translate(185%, -50%);
-            transform: translate(185%, -50%);
+    -webkit-transform: translate(250%, -50%);
+            transform: translate(250%, -50%);
   }
 .default-other-two__spot-eleven {
     -webkit-transform: translate(-330%, -50%);
             transform: translate(-330%, -50%);
   }
 .default-other-two__spot-eleven-2 {
-    -webkit-transform: translate(-285%, -50%);
-            transform: translate(-285%, -50%);
+    -webkit-transform: translate(-350%, -50%);
+            transform: translate(-350%, -50%);
   }
+.ring {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.oval {
+  position: absolute;
+  height: 340px;
+  width: 560px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.oval-2 {
+  position: absolute;
+  height: 340px;
+  width: 650px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.verticalLine {
+  position: absolute;
+  height: 310px;
+  width: 7px;
+  border: 2px solid #474747;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 .page {
   display: inline-block;
   position: fixed;
@@ -506,25 +562,367 @@ h1 {
   font-weight: 300;
   font-size: 2.8rem;
   color: #f3f3f3;
-  width: 40%;
-  height: 70%;
-  right: 15%;
+  width: 400px;
+  height: 90%;
+  top: 10%;
+  right: 10%;
+
+
 }
-.title p {
-    float: right;
-  }
+.subtitle {
+  display: block;
+  position: absolute;
+  left: 1%;
+  bottom: 15%;
+  font-family: 'Megrim', cursive;
+  font-size: 1rem;
+  color: #cbcbcb;
+
+
+}
+/* Major
+ -------------------------------------------------------------
+*/
 .Fire {
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 0, 0, 1);
+  margin: 12%;
+  background-image: url('../../assets/images/Fire Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
 }
 .Air {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 255, 0, 1);
+  background-image: url('../../assets/images/Air Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
 }
 .Water {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 255, 1);
+  background-image: url('../../assets/images/Water Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Earth {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Earth Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Life {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Life Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Death {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Death Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Mind {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Mind Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Body {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Body Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Knowledge {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Knowledge Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Faith {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Faith Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Order {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Order Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Chaos {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Chaos Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Nature {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Nature Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Artifice {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Artifice Rune.jpg');
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+/* Intermediate
+ -------------------------------------------------------------
+*/
+.Self {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Self Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Other {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Other Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Storage {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Storage Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Instant {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Instant Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Duration {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Duration Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Channel {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Channel Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Create {
+  width: 100%;
+  height: 100%;
+  margin: 12%;
+  background-image: url('../../assets/images/Create Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+}
+.Destroy {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Destroy Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Control {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Control Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Shape {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Shape Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Transform {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Transform Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Snare {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Snare Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+/* Minor
+ -------------------------------------------------------------
+*/
+.Solid {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Solid Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Liquid {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Liquid Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Gas {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Gas Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Sharp {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Sharp Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Smooth {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Smooth Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Small {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Small Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Large {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Large Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Area {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Area Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Target {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Target Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Fast {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Fast Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Slow {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Slow Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Multiple {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Multiple Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
+}
+.Shape {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/Shape Rune.jpg');
+  background-size: contain;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  margin: 12%;
 }

@@ -6,11 +6,22 @@
   font-weight: 300;
   font-size: 2.8rem;
   color: #f3f3f3;
-  width: 40%;
-  height: 70%;
-  right: 15%;
+  width: 400px;
+  height: 90%;
+  top: 10%;
+  right: 10%;
 
-  p {
-    float: right;
-  }
+
+}
+
+.subtitle {
+  display: block;
+  position: absolute;
+  left: 1%;
+  bottom: 15%;
+  font-family: 'Megrim', cursive;
+  font-size: 1rem;
+  color: #cbcbcb;
+
+
 }

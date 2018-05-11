@@ -42,29 +42,29 @@ export class InterRunes extends React.Component {
 
         <div class="rune-selector-area--intermediate">
 
-            <InterRuneContainer name="Self" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Other" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Storage" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+            <InterRuneContainer name="Self" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Other" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Storage" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
 
 
 
 
-            <InterRuneContainer name="Instant" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Duration" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Channel" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+            <InterRuneContainer name="Instant" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Duration" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Channel" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
 
 
 
 
-            <InterRuneContainer name="Create" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Destroy" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Control" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+            <InterRuneContainer name="Create" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Destroy" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Control" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
 
 
 
-            <InterRuneContainer name="Shape" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Transform" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
-            <InterRuneContainer name="Snare" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected}/>
+            <InterRuneContainer name="Shape" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Transform" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
+            <InterRuneContainer name="Snare" addClicks={this.addClicks} dropClicks={this.dropClicks} activeInterRunes={this.state.activeInterRunes} interRunesSelected={this.state.interRunesSelected} otherRunes={this.props.otherRunes} />
 
         </div>
 

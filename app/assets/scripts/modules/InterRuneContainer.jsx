@@ -10,12 +10,11 @@ export class InterRuneContainer extends React.Component {
 
   clickHandler() {
     if (this.state.style === "button") {
-
-      if (this.props.interRunesSelected < 4) {
+      if (this.props.otherRunes === 6) {
+        alert(`Maximum 6 total Inter and Minor runes can be selected`);
+      } else {
         this.setState({ style: "button button--selected" });
         this.props.addClicks(this.props.name);
-      } else {
-        alert(`Maximum 4 inter runes can be selected`);
       }
     }
 

@@ -19,7 +19,12 @@ export class Navbar extends React.Component {
           <NavButtonI passUp={this.passUp} name="Idests" style={this.props.style}/>
           <NavButtonC passUp={this.passUp} name="Calendar" style={this.props.style}/>
         </div>
-        <div class="title"><p>The Living City</p></div>
+        <div class="title">
+          The Living City
+          <div class="subtitle">
+            Built by Lily Piriota
+          </div>
+        </div>
       </div>
     );
   }

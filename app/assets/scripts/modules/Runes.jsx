@@ -9,12 +9,10 @@ export class Runes extends React.Component {
     super(props);
     this.state = {
       MajorRunes: [],
-      InterRunes: [],
-      MinorRunes: []
+      OtherRunes: []
     }
     this.updateMajRunesSelected = this.updateMajRunesSelected.bind(this);
-    this.updateInterRunesSelected = this.updateInterRunesSelected.bind(this);
-    this.updateMinRunesSelected = this.updateMinRunesSelected.bind(this);
+    this.updateOtherRunesSelected = this.updateOtherRunesSelected.bind(this);
   }
 
   updateMajRunesSelected(runes) {
@@ -28,27 +26,17 @@ export class Runes extends React.Component {
     }
   }
 
-  updateInterRunesSelected(runes) {
-    if (this.state.InterRunes.includes(runes)) {
-      let position = this.state.InterRunes.indexOf(runes);
-      this.state.InterRunes.splice(position, 1);
+  updateOtherRunesSelected(runes) {
+    if (this.state.OtherRunes.includes(runes)) {
+      let position = this.state.OtherRunes.indexOf(runes);
+      this.state.OtherRunes.splice(position, 1);
       this.forceUpdate();
     } else {
-      this.state.InterRunes.push(runes);
+      this.state.OtherRunes.push(runes);
       this.forceUpdate();
     }
   }
 
-  updateMinRunesSelected(runes) {
-    if (this.state.MinorRunes.includes(runes)) {
-      let position = this.state.MinorRunes.indexOf(runes);
-      this.state.MinorRunes.splice(position, 1);
-      this.forceUpdate();
-    } else {
-      this.state.MinorRunes.push(runes);
-      this.forceUpdate();
-    }
-  }
 
   render() {
     return (
@@ -56,18 +44,18 @@ export class Runes extends React.Component {
         <div class="site-sidebar">
           <div class="sidebar-ghost">
             <div class="sidebar-top-slot">
-              <MajorRunes update={this.updateMajRunesSelected}/>
+              <MajorRunes update={this.updateMajRunesSelected} />
             </div>
             <div class="sidebar-middle-slot">
-              <InterRunes update={this.updateInterRunesSelected}/>
+              <InterRunes update={this.updateOtherRunesSelected} otherRunes={this.state.OtherRunes.length} />
             </div>
             <div class="sidebar-bottom-slot">
-              <MinorRunes update={this.updateMinRunesSelected}/>
+              <MinorRunes update={this.updateOtherRunesSelected} otherRunes={this.state.OtherRunes.length} />
             </div>
           </div>
         </div>
         <div class="idest-spot">
-          <IdestBuilder selectedMajorRunes={this.state.MajorRunes} selectedInterRunes={this.state.InterRunes} selectedMinorRunes={this.state.MinorRunes}/>
+          <IdestBuilder selectedMajorRunes={this.state.MajorRunes} selectedOtherRunes={this.state.OtherRunes} />
         </div>
       </div>
     );

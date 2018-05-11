@@ -2,9 +2,11 @@
   height: 60%;
   width: 60%;
   position: absolute;
-  top: 220px;
+  top: 27%;
   left: 30%;
-  border: 2px solid rgba(255, 0, 0, 1);
+  background-color: #FFF;
+  box-shadow: 0px 0px 7px 2px #cbcbcb;
+
 }
 
 .default-major {
@@ -15,7 +17,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid #000;
+  background-image: url('../../assets/images/Border - Ma.jpg');
+  background-size: contain;
 
   &__first-two {
     transform: translate(-140%, -50%);
@@ -33,75 +36,85 @@
     transform: translate(-110%, -50%);
   }
 
+  &__fifth-two {
+    transform: translate(20%, -50%);
+  }
+
+  &__sixth-two {
+    transform: translate(-120%, -50%);
+  }
+
 }
 
 .default-other-one {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   position: absolute;
   display: inline-block;
   top: 50%;
   left: 50%;
-  border: 2px solid rgba(0, 0, 255, 1);
+  background-image: url('../../assets/images/Border I-Mi.jpg');
+  background-size: contain;
 
   &__spot-one {
-    transform: translate(-50%, -190%);
+    transform: translate(-50%, -230%);
   }
 
   &__spot-two {
-    transform: translate(-50%, 90%);
+    transform: translate(-50%, 130%);
   }
 
   &__spot-three {
-    transform: translate(90%, -50%);
+    transform: translate(130%, -50%);
   }
 
   &__spot-four {
-    transform: translate(-190%, -50%);
+    transform: translate(-230%, -50%);
   }
 
   &__spot-five {
-    transform: translate(85%, 85%);
+    transform: translate(120%, 40%);
   }
 
   &__spot-six {
-    transform: translate(-185%, 85%);
+    transform: translate(-220%, 40%);
   }
 
   &__spot-seven {
-    transform: translate(30%, 90%);
+    transform: translate(45%, 113%);
   }
 
   &__spot-eight {
-    transform: translate(-130%, 90%);
+    transform: translate(-145%, 113%);
   }
 
   &__spot-nine {
-    transform: translate(90%, -110%);
+    transform: translate(130%, -132%);
   }
 
   &__spot-ten {
-    transform: translate(90%, 10%);
+    transform: translate(130%, 32%);
   }
 
   &__spot-eleven {
-    transform: translate(-190%, -110%);
+    transform: translate(-230%, -132%);
   }
 
   &__spot-twelve {
-    transform: translate(-190%, 10%);
+    transform: translate(-230%, 32%);
   }
 
 }
 
 .default-other-two {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   position: absolute;
   display: inline-block;
   top: 50%;
   left: 50%;
-  border: 2px solid rgba(0, 0, 255, 1);
+  background-image: url('../../assets/images/Border I-Mi.jpg');
+  background-size: contain;
 
   &__spot-one {
     transform: translate(-50%, -50%);
@@ -124,35 +137,35 @@
   }
 
   &__spot-six {
-    transform: translate(85%, -190%);
+    transform: translate(130%, -233%);
   }
 
   &__spot-six-2 {
-    transform: translate(40%, -190%);
+    transform: translate(70%, -233%);
   }
 
   &__spot-seven {
-    transform: translate(85%, 90%);
+    transform: translate(130%, 133%);
   }
 
   &__spot-seven-2 {
-    transform: translate(40%, 90%);
+    transform: translate(70%, 133%);
   }
 
   &__spot-eight {
-    transform: translate(-185%, -190%);
+    transform: translate(-230%, -233%);
   }
 
   &__spot-eight-2 {
-    transform: translate(-140%, -190%);
+    transform: translate(-170%, -233%);
   }
 
   &__spot-nine {
-    transform: translate(-185%, 90%);
+    transform: translate(-230%, 133%);
   }
 
   &__spot-nine-2 {
-    transform: translate(-140%, 90%);
+    transform: translate(-170%, 133%);
   }
 
   &__spot-ten {
@@ -160,7 +173,7 @@
   }
 
   &__spot-ten-2 {
-    transform: translate(185%, -50%);
+    transform: translate(250%, -50%);
   }
 
   &__spot-eleven {
@@ -168,7 +181,50 @@
   }
 
   &__spot-eleven-2 {
-    transform: translate(-285%, -50%);
+    transform: translate(-350%, -50%);
   }
 
+}
+
+.ring {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oval {
+  position: absolute;
+  height: 340px;
+  width: 560px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oval-2 {
+  position: absolute;
+  height: 340px;
+  width: 650px;
+  border-radius: 340px;
+  border: 7px double #474747;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.verticalLine {
+  position: absolute;
+  height: 310px;
+  width: 7px;
+  border: 2px solid #474747;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
